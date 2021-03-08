@@ -60,20 +60,20 @@
                     <h4 class="h3 mb-3 font-weight-strong" style="margin-top: 50px;">Edit Project</h4>
                     <form action="/action_page.php">
                         <div class="form-group">
-                            <form-label for="text">Project name</form-label>
+                            <label class="form-label" for="text">Project name</label>
                             <input type="text" class="form-control" placeholder="Project 1" name="projectname">
                         </div> 
                         <br>
                         <div class="form-group">
-                            <form-label for="text">Project Abstract</form-label>
+                            <label class="form-label" for="text">Project Abstract</label>
                             <textarea class="form-control" type="text" name="abstract" rows="5"> </textarea>
                         </div>
                         <div class="form-group">
-                            <form-label>Author(s)</form-label>
+                            <label class="form-label">Author(s)</label>
                             <input type="text" class="form-control" placeholder="Patience Kadiri" name="authors"/>
                         </div>
-                        <div>
-                            <form-label>Tag(s)</form-label> <br/>
+                        <div class="form-group">
+                            <label class="form-label">Tag(s)</label> <br/>
                             <input type="text" class="form-control" placeholder="#javascript, #mongodb" name="tags"/>
                         </div> 
                         <br>
@@ -85,12 +85,10 @@
                     <h4 class="h3 mb-3 font-weight-strong" style="margin-top: 50px;">Manage Project Files</h4>
                     <form>
                         <div class="form-group">
-                            <div class="input-group">
                                 <input type="text" class="form-control flex-nowrap" name="inlineFormInputSearch" placeholder="Click to open file browser">
-                                <div class="input-group-">
                                     <button class="btn btn-outline-dark" type="submit">Browse</button>
-                                </div>
-                        </div> <br>
+                        </div> 
+                        <br>
 
                         <div class="card">
                             <div class="card-header background-color: lightgrey;">Project Files</div>
